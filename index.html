@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>電子產品回收點地圖</title>
+    <script src="https://kit.fontawesome.com/e5ebd2ea19.js"></script>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <h1>電子產品回收點地圖</h1>
+            <div class="selection">
+                <select name="" id="selectDistrict">
+                    <option value="defaultValue">--請選擇行政區--</option>
+                </select>
+            </div>
+        </header>
+        <content>
+            <div id="map"></div>
+        </content>
+    </div>
+    <footer>
+        <p>廢行動通訊產品回收點資料</p>
+        <p>資料來源：行政院環境保護署。環境資源資料開放平臺</p>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgzZYbAMb_D2-NHsr1Aes2Bjf2FMCZph0&callback=init"
+        async defer>
+    </script>
+    <script src="js/map.js"></script>
+</body>
+
+</html>
