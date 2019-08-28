@@ -1,5 +1,8 @@
 # 電子產品回收點地圖
 
+![image](https://github.com/yunhsu473/yunhsu/blob/master/img/map1.gif)
+
+
 - Google Maps API
 
   串接 Google Maps API 技術在 Google Maps 印出目標地點以及資料視窗
